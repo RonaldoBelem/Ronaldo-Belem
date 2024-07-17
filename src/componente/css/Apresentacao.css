@@ -17,10 +17,10 @@ body {
 }
 header {
   text-align: center;
-  padding: 3rem 0;
+  padding: 5rem 0;
 }
 .cabecalho {
-  padding: 2rem;
+  padding: 0 3rem;
   text-decoration: none;
   color: var(--cor02);
 }
@@ -67,7 +67,9 @@ main p {
 .imagemPerfil {
   margin-top: 15px;
   width: 18rem;
+  background-color: var(--cor01);
 }
+
 
 @media (max-width: 840px) {
   body {
@@ -115,6 +117,9 @@ main p {
 }
 
 @media (max-width: 510px) {
+  body {
+    margin: 0;
+  }
   header {
     padding: 3rem 0;
   }

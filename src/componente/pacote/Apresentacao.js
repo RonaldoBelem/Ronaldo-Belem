@@ -1,5 +1,5 @@
 import React from "react";
-import Imagem from "../img/ronaldo nunes belem.jpeg";
+import Imagem from "../img/ronaldo_nunes_belem.1a6f0c8a18677048dc35-removebg-preview.png";
 import TypingEffect from "./TypingEffect";
 import Carrosel from "./Carrosel";
 import "../css/Apresentacao.css";
