@@ -39,6 +39,9 @@ h1 {
     .apresentacao__Sobre {
         width: 85%;
       }
+      .imagemSobre {
+        width: 55%;
+      }
 }
 
 
