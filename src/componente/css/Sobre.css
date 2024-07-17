@@ -37,7 +37,7 @@ h1 {
 }
 @media (max-width:510px) {
     .apresentacao__Sobre {
-        width: 100%;
+        width: 90%;
       }
 }
 
