@@ -115,6 +115,9 @@ main p {
 }
 
 @media (max-width: 510px) {
+  body {
+    margin: 0 ;
+  }
   header {
     padding: 3rem 0;
   }
