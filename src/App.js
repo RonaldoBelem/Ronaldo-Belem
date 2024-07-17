@@ -1,25 +1,34 @@
-import logo from './logo.svg';
-import './App.css';
+import React from "react";
+import Inicio from "./componente/Inicio";
+import Projetos from "./componente/Projetos";
+import Curriculum from "./componente/Curriculum";
+import Rodape from "./componente/pacote/Rodape";
+import Sobre from "./componente/Sobre";
+import { Routes, Route, Link } from "react-router-dom";
+import "./App.css";
 
-function App() {
+export default function App() {
   return (
-    <div className="App">
-      <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
-        <p>
-          Edit <code>src/App.js</code> and save to reload.
-        </p>
-        <a
-          className="App-link"
-          href="https://reactjs.org"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Learn React
-        </a>
-      </header>
-    </div>
+    <>
+      <body>
+        <header>
+          <Link className="cabecalho" to="/">Apresentaçâo</Link>
+          <Link className="cabecalho" to="/Projetos">Projetos</Link>
+          <Link className="cabecalho" to="/Curriculum">Curriculum</Link>
+          <Link className="cabecalho" to="/Sobre">Sobre</Link>
+        </header>
+        <main>
+          <Routes >
+            <Route path="/" element={<Inicio />} />
+            <Route path="/Projetos" element={<Projetos />} />
+            <Route path="/Curriculum" element={<Curriculum />} />
+            <Route path="/Sobre" element={<Sobre />} />
+          </Routes>
+        </main>
+        <footer>
+          <Rodape />
+        </footer>
+      </body>
+    </>
   );
 }
-
-export default App;

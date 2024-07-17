@@ -1,0 +1,142 @@
+* {
+  margin: 0;
+  padding: 0;
+  border: 0;
+  font: inherit;
+  box-sizing: border-box;
+}
+:root {
+  --cor01: #fdffe2;
+  --cor02: #83b4ff;
+  --cor03: #5a72a0;
+  --cor04: #1a2130;
+}
+body {
+  background-color: var(--cor04);
+  margin: 0 3rem;
+}
+header {
+  text-align: center;
+  padding: 3rem 0;
+}
+.cabecalho {
+  padding: 2rem;
+  text-decoration: none;
+  color: var(--cor02);
+}
+.apresentacao__conteudo {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  align-items: flex-start;
+  gap: 2rem;
+}
+.apresentacao__redeSocial {
+  padding: 1.5rem 0;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  gap: 1.5rem;
+}
+.apresentacao__redeSocial a {
+  text-align: center;
+  padding: 5px;
+  text-decoration: none;
+  color: var(--cor02);
+  border: 1px solid var(--cor03);
+  border-radius: 5px;
+  width: 70%;
+}
+.apresentacao span {
+  padding-left: 10px;
+}
+main h1 {
+  font-size: 1.5rem;
+}
+main strong {
+  color: var(--cor02);
+}
+main p {
+  margin-top: 20px;
+}
+.apresentacao {
+  width: 20rem;
+  color: var(--cor01);
+}
+.imagemPerfil {
+  margin-top: 15px;
+  width: 18rem;
+}
+
+@media (max-width: 840px) {
+  body {
+    margin: 0 2rem;
+  }
+
+  .apresentacao {
+    width: 25rem;
+    color: var(--cor01);
+  }
+  .imagemPerfil {
+    width: 16rem;
+  }
+}
+
+@media (max-width: 750px) {
+  body {
+    margin: 0 1, 5rem;
+  }
+  .cabecalho {
+    padding: 1rem;
+    text-decoration: none;
+    color: var(--cor02);
+  }
+
+  .apresentacao {
+    width: 30rem;
+    color: var(--cor01);
+  }
+  .apresentacao__redeSocial a {
+    width: 80%;
+  }
+  .imagemPerfil {
+    width: 15rem;
+  }
+}
+@media (max-width: 610px) {
+  .apresentacao {
+    width: 60%;
+    color: var(--cor01);
+  }
+  .imagemPerfil {
+    width: 40%;
+  }
+}
+
+@media (max-width: 510px) {
+  header {
+    padding: 3rem 0;
+  }
+  .cabecalho {
+    padding: 0.5rem;
+    text-decoration: none;
+    color: var(--cor02);
+  }
+  .apresentacao__conteudo {
+    display: flex;
+    flex-direction: column-reverse;
+    align-items: center;
+  }
+  .apresentacao__redeSocial a {
+    width: 100%;
+  }
+  .apresentacao {
+    text-align: center;
+    width: 20rem;
+    color: var(--cor01);
+  }
+  .imagemPerfil {
+    width: 20rem;
+  }
+}
