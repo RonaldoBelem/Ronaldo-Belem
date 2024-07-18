@@ -12,9 +12,9 @@ export default function App() {
     <>
       <body>
         <header>
-          <Link className="cabecalho" to="/">Apresentaçâo</Link>
+          <Link className="cabecalho" to="/">Inicio</Link>
           <Link className="cabecalho" to="/Projetos">Projetos</Link>
-          <Link className="cabecalho" to="/Curriculum">Curriculum</Link>
+          <Link className="cabecalho" to="/Curriculum">Curriculo</Link>
           <Link className="cabecalho" to="/Sobre">Sobre</Link>
         </header>
         <main>
