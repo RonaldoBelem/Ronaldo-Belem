@@ -137,6 +137,7 @@ main p {
     align-items: center;
   }
   .apresentacao__redeSocial a {
+    padding: 10px 0;
     width: 85%;
   }
   .apresentacao {
