@@ -1,3 +1,5 @@
+
+
 * {
   margin: 0;
   padding: 0;
@@ -41,7 +43,7 @@ header {
 }
 .apresentacao__redeSocial a {
   text-align: center;
-  padding: 5px;
+  padding: 8px 0;
   text-decoration: none;
   color: var(--cor02);
   border: 1px solid var(--cor03);
@@ -128,13 +130,14 @@ main p {
     text-decoration: none;
     color: var(--cor02);
   }
+
   .apresentacao__conteudo {
     display: flex;
     flex-direction: column-reverse;
     align-items: center;
   }
   .apresentacao__redeSocial a {
-    width: 100%;
+    width: 85%;
   }
   .apresentacao {
     text-align: center;
