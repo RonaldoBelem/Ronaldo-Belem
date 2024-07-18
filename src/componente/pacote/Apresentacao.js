@@ -1,7 +1,7 @@
 import React from "react";
 import Imagem from "../img/ronaldo_nunes_belem.1a6f0c8a18677048dc35-removebg-preview.png";
 import TypingEffect from "./TypingEffect";
-import Carrosel from "./Carrosel";
+import CardList from "./CardList";
 import "../css/Apresentacao.css";
 
 export default function Apresentacao() {
@@ -47,8 +47,8 @@ export default function Apresentacao() {
         </div>
         <img className="imagemPerfil" src={Imagem} alt="" />
       </section>
-      <section >
-        <Carrosel />
+      <section>
+        <CardList />
       </section>
     </>
   );
