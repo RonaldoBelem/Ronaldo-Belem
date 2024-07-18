@@ -29,7 +29,6 @@ header {
 .apresentacao__conteudo {
   display: flex;
   justify-content: center;
-  align-items: center;
   align-items: flex-start;
   gap: 2rem;
 }
@@ -126,7 +125,7 @@ main p {
     padding: 3rem 0;
   }
   .cabecalho {
-    padding:0 0.5rem ;
+    padding:0 0.3rem ;
     text-decoration: none;
     color: var(--cor02);
   }
@@ -135,12 +134,14 @@ main p {
     display: flex;
     flex-direction: column-reverse;
     align-items: center;
+    justify-content: center;
   }
   .apresentacao__redeSocial a {
     padding: 10px 0;
     width: 85%;
   }
   .apresentacao {
+    padding: 0 1px;
     text-align: center;
     width: 20rem;
     color: var(--cor01);
