@@ -84,7 +84,8 @@ main p {
 .imagemPerfil {
   margin-top: 15px;
   width: 18rem;
-  background-color: var(--cor01);
+  background-color: white;
+  border-radius: 25px 10px ;
 }
 
 @media (max-width: 840px) {
