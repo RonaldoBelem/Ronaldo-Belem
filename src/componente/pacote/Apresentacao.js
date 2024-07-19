@@ -16,11 +16,9 @@ export default function Apresentacao() {
             </strong>
           </h1>
           <p>
-            Sim, o Rei Xerxes da história de Ester na Bíblia é o mesmo Rei
-            Xerxes retratado no filme "300". Ambos se referem a Xerxes I, também
-            conhecido como Xerxes, o Grande, que foi um rei do Império
-            Aquemênida (Persa). Aqui estão alguns detalhes sobre Xerxes I: 1.
-            **História Bíblica**: No livro de Ester, Xerxes I é referido como
+            Sou Apaixonado por tecnologia e desenvolvimento de software, possuo
+            sólidos conhecimentos em diversas linguagens e tecnologias de
+            back-end
           </p>
           <section className="apresentacao__redeSocial">
             <a
@@ -42,6 +40,10 @@ export default function Apresentacao() {
             <a target="blank" href="https://github.com/RonaldoBelem">
               <i class="bi bi-github"></i>
               <span>Github</span>
+            </a>
+            <a target="blank" href="curriculo">
+              <i class="bi bi-arrow-down-circle"></i>
+              <span>Curriculo</span>
             </a>
           </section>
         </div>

@@ -1,7 +1,6 @@
 import React from "react";
 import Inicio from "./componente/Inicio";
 import Projetos from "./componente/Projetos";
-import Curriculum from "./componente/Curriculum";
 import Rodape from "./componente/pacote/Rodape";
 import Sobre from "./componente/Sobre";
 import { Routes, Route, Link } from "react-router-dom";
@@ -12,16 +11,20 @@ export default function App() {
     <>
       <body>
         <header>
-          <Link className="cabecalho" to="/">Inicio</Link>
-          <Link className="cabecalho" to="/Projetos">Projetos</Link>
-          <Link className="cabecalho" to="/Curriculum">Curriculo</Link>
-          <Link className="cabecalho" to="/Sobre">Sobre</Link>
+          <Link className="cabecalho" to="/">
+            Inicio
+          </Link>
+          <Link className="cabecalho" to="/Projetos">
+            Projetos
+          </Link>
+          <Link className="cabecalho" to="/Sobre">
+            Sobre
+          </Link>
         </header>
         <main>
-          <Routes >
+          <Routes>
             <Route path="/" element={<Inicio />} />
             <Route path="/Projetos" element={<Projetos />} />
-            <Route path="/Curriculum" element={<Curriculum />} />
             <Route path="/Sobre" element={<Sobre />} />
           </Routes>
         </main>
