@@ -10,7 +10,7 @@ export default function Apresentacao() {
       <section className="apresentacao__conteudo">
         <div className="apresentacao">
           <h1>
-            Desenvolvedor
+            Oi me chamo Ronaldo
             <strong>
               <TypingEffect />
             </strong>

@@ -1,3 +1,18 @@
+
+* {
+  margin: 0;
+  padding: 0;
+  border: 0;
+  font: inherit;
+  box-sizing: border-box;
+}
+:root {
+  --cor01: #fdffe2;
+  --cor02: #83b4ff;
+  --cor03: #5a72a0;
+  --cor04: #1a2130;
+}
+
 .card-list {
     display: flex;
     flex-wrap: wrap;
@@ -7,9 +22,10 @@
   .card {
     width: 200px;
     height: 300px;
-    border: 1px solid #ccc;
+    background:#5a72a025 ;
+    border: 1px solid #cccccc7e;
     border-radius: 10px;
-    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.3);
     display: flex;
     align-items: center;
     justify-content: center;

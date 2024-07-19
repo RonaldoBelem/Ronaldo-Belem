@@ -1,5 +1,3 @@
-
-
 * {
   margin: 0;
   padding: 0;
@@ -25,7 +23,22 @@ header {
   padding: 0 3rem;
   text-decoration: none;
   color: var(--cor02);
+  position: relative;
 }
+.cabecalho::after {
+  content: " ";
+  width: 0;
+  height: 2px;
+  background-color: var(--cor02);
+  position: absolute;
+  bottom: 0;
+  left: 0;
+}
+.cabecalho:hover::after {
+  transition: 0.5s ease-in-out;
+  width: 100%;
+}
+
 .apresentacao__conteudo {
   display: flex;
   justify-content: center;
@@ -45,7 +58,7 @@ header {
   padding: 8px 0;
   text-decoration: none;
   color: var(--cor02);
-  border: 1px solid var(--cor03);
+  border: 1px solid var(--cor02);
   border-radius: 5px;
   width: 70%;
 }
@@ -65,12 +78,14 @@ main p {
   width: 20rem;
   color: var(--cor01);
 }
+.apresentacao p {
+  text-align: justify;
+}
 .imagemPerfil {
   margin-top: 15px;
   width: 18rem;
   background-color: var(--cor01);
 }
-
 
 @media (max-width: 840px) {
   body {
@@ -119,13 +134,13 @@ main p {
 
 @media (max-width: 510px) {
   body {
-    margin: 0 ;
+    margin: 0;
   }
   header {
     padding: 3rem 0;
   }
   .cabecalho {
-    padding:0 0.4rem ;
+    padding: 0 0.4rem;
     text-decoration: none;
     color: var(--cor02);
   }
