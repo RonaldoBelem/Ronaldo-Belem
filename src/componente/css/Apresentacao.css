@@ -21,6 +21,7 @@ header {
 }
 .cabecalho {
   padding: 0 3rem;
+  font-weight: 500;
   text-decoration: none;
   color: var(--cor02);
   position: relative;
@@ -75,7 +76,7 @@ main p {
   margin-top: 20px;
 }
 .apresentacao {
-  width: 20rem;
+  width: 25rem;
   color: var(--cor01);
 }
 .apresentacao p {
@@ -84,9 +85,10 @@ main p {
 .imagemPerfil {
   margin-top: 15px;
   width: 18rem;
-  background-color: white;
-  border-radius: 25px 10px ;
+  background-color: var(--cor01);
+  border-radius: 15px;
 }
+
 
 @media (max-width: 840px) {
   body {
@@ -125,11 +127,11 @@ main p {
 }
 @media (max-width: 610px) {
   .apresentacao {
-    width: 60%;
+    width: 30rem;
     color: var(--cor01);
   }
   .imagemPerfil {
-    width: 40%;
+    width: 10rem;
   }
 }
 
@@ -141,6 +143,7 @@ main p {
     padding: 3rem 0;
   }
   .cabecalho {
+    font-size: 20px;
     padding: 0 0.4rem;
     text-decoration: none;
     color: var(--cor02);
@@ -163,6 +166,6 @@ main p {
     color: var(--cor01);
   }
   .imagemPerfil {
-    width: 20rem;
+    width: 18rem;
   }
 }
