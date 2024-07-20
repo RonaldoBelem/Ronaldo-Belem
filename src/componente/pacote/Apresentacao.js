@@ -18,7 +18,7 @@ export default function Apresentacao() {
           <p>
             Sou Apaixonado por tecnologia e desenvolvimento de software, possuo
             sólidos conhecimentos em diversas linguagens e tecnologias de
-            back-end
+            back-end.
           </p>
           <section className="apresentacao__redeSocial">
             <a

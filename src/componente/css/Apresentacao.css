@@ -75,7 +75,8 @@ main strong {
   color: var(--cor02);
 }
 main p {
-  margin-top: 20px;
+  text-indent: 35px;
+  margin-top: 15px;
 }
 .apresentacao {
   width: 25rem;
