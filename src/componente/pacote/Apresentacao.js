@@ -16,7 +16,11 @@ export default function Apresentacao() {
 
   return (
     <>
-      <section className="apresentacao__conteudo">
+      <section onClick={()=>{
+        if (Contato===true) {
+          setContato(false)
+        }
+      }} className="apresentacao__conteudo">
         <div className="apresentacao">
           <h1>
             Olá, me chamo Ronaldo.
