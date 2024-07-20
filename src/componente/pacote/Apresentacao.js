@@ -63,7 +63,7 @@ export default function Apresentacao() {
               href={toBeEmpty}
             >
               <i class="bi bi-telephone"></i>
-              <span>Curriculo</span>
+              <span>Telefone</span>
             </a>
 
             {informacao_contatos()}
