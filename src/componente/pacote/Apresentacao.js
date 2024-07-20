@@ -8,7 +8,7 @@ import { toBeEmpty } from "@testing-library/jest-dom/dist/matchers";
 
 export default function Apresentacao() {
   const [Contato, setContato] = useState(false);
-  const info = () => {
+  const informacao_contatos = () => {
     if (Contato === true) {
       return <InfoContato />;
     }
@@ -62,11 +62,11 @@ export default function Apresentacao() {
               }}
               href={toBeEmpty}
             >
-              <i class="bi bi-arrow-down-circle"></i>
+              <i class="bi bi-telephone"></i>
               <span>Curriculo</span>
             </a>
 
-            {info()}
+            {informacao_contatos()}
           </section>
         </div>
         <img className="imagemPerfil" src={Imagem} alt="" />
