@@ -4,6 +4,7 @@ import "../App.css";
 const infomacoes = {
   nome: "Ronaldo Nunes Belém",
   telefone: "Contato: (91)98739-0552",
+  email: "ronaldonunes8@gmail.com"
 };
 const InfoStylus = {
   display: "flex",
@@ -13,8 +14,8 @@ const InfoStylus = {
   fontSize: "1.1rem",
   fontWeight: 500,
   color: "#1a2130",
-  width: "250px",
-  height: "100px",
+  width: "270px",
+  height: "110px",
   background: "#fdffe2",
   float: "left",
   borderRadius: "10px",
@@ -30,6 +31,7 @@ export default function InfoContato(isOpen) {
       <div style={InfoStylus}>
         <p style={infoP}>{infomacoes.nome}</p>
         <p style={infoP}>{infomacoes.telefone}</p>
+        <p style={infoP}>{infomacoes.email}</p>
       </div>
     );
   }
