@@ -22,7 +22,7 @@ const InfoStylus = {
   position: "absolute",
 };
 const infoP = {
-  margin: "0 auto",
+  margin: "1px auto",
   textIndent: "0",
 };
 export default function InfoContato(isOpen) {
