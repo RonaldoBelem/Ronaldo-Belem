@@ -2,7 +2,7 @@ import React from "react";
 import "../App.css";
 
 const infomacoes = {
-  nome: "Ronaldo Nunes Belem",
+  nome: "Ronaldo Nunes Belém",
   telefone: "Contato: (91)98739-0552",
 };
 const InfoStylus = {
