@@ -14,7 +14,7 @@ const InfoStylus = {
   fontSize: "1.1rem",
   fontWeight: 500,
   color: "#1a2130",
-  width: "270px",
+  width: "280px",
   height: "110px",
   background: "#fdffe2",
   float: "left",
