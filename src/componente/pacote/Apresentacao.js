@@ -16,11 +16,7 @@ export default function Apresentacao() {
 
   return (
     <>
-      <section onClick={()=>{
-        if (Contato===true) {
-          setContato(false)
-        }
-      }} className="apresentacao__conteudo">
+      <section className="apresentacao__conteudo">
         <div className="apresentacao">
           <h1>
             Olá, me chamo Ronaldo.
@@ -56,13 +52,14 @@ export default function Apresentacao() {
               <span>Github</span>
             </a>
             <a
-              onClick={() => {
+              onMouseOver={() => {
                 if (Contato === false) {
                   setContato(true);
-                } else if (Contato === true) {
+                }
+              }} onMouseOut={()=>{
+                if (Contato === true) {
                   setContato(false);
                 }
-                console.log(Contato);
               }}
               href={toBeEmpty}
             >
