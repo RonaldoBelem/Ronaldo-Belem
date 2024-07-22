@@ -93,7 +93,7 @@ main p {
   width: 18rem;
   background-color: var(--cor01);
   border-radius: 15px;
-  box-shadow: 0 2px 4px 12px  #5a72a01e;
+  box-shadow: 0 0 2px 7px  #5a72a012;
 }
 
 
