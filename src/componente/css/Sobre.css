@@ -42,7 +42,6 @@ form{
   flex-direction: column;
   justify-content: center;
   border-radius: 5px;
-  box-shadow: 0 0 1px 1px ;
 }
 form h2{
   color: var(--cor02);
