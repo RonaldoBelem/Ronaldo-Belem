@@ -1,10 +1,10 @@
 import React from "react";
 import IdadeDinamica from "./pacote/IdadeDinamica";
+import Formulario from "./pacote/Formulario";
 import Imagem from "./img/ronaldo nunes belem.jpeg";
 import "../componente/css/Sobre.css";
 
 export default function Sobre() {
-
   return (
     <>
       <section className="apresentacao__conteudo__Sobre">
@@ -14,7 +14,7 @@ export default function Sobre() {
           <p>
             Comecei a Trabalhar aos 13 Anos de Maneira Informal e aos 19 Anos
             Consegui meu Primeiro Emprego de Carteira assinada, sempre estudando
-            e tentando evoluir como profissional hoje tenho {IdadeDinamica()}{' '}
+            e tentando evoluir como profissional hoje tenho {IdadeDinamica()}{" "}
             anos e continuo estudando alias estou realizando meu sonho de ser um
             programador pretendo evoluir mais e mais nesta área para ser um
             profissional de excelência.
@@ -31,6 +31,9 @@ export default function Sobre() {
           </p>
         </div>
       </section>
+      <div className="formAlinhamento">
+        <Formulario />
+      </div>
     </>
   );
 }
