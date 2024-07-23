@@ -1,6 +1,7 @@
 import React from "react";
 import IdadeDinamica from "./pacote/IdadeDinamica";
-import Formulario from "./pacote/Formulario";
+import ContactForm from "./pacote/ContactForm";
+
 import Imagem from "./img/ronaldo nunes belem.jpeg";
 import "../componente/css/Sobre.css";
 
@@ -32,7 +33,7 @@ export default function Sobre() {
         </div>
       </section>
       <div className="formAlinhamento">
-        <Formulario />
+        <ContactForm />
       </div>
     </>
   );

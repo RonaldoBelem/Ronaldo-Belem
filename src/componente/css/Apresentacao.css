@@ -10,7 +10,7 @@
   --cor02: #83b4ff;
   --cor03: #5a72a0;
   --cor04: #1a2130;
-  --cor05: #c2dafd;
+  --cor05: #cbe0ff;
   
 }
 body {
@@ -39,7 +39,7 @@ header {
   left: 0;
 }
 .cabecalho:hover::after {
-  transition: 0.5s ease-in-out;
+  transition: 0.3s ease-in-out;
   width: 100%;
 }
 
