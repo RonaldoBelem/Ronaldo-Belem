@@ -21,7 +21,7 @@ header {
 }
 
 .cabecalho {
-  padding: 0 3rem;
+  padding: 8px 3rem;
   font-weight: 600;
   text-decoration: none;
   color: var(--cor02);
