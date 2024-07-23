@@ -172,6 +172,9 @@ main p {
     width: 20rem;
     color: var(--cor01);
   }
+  .apresentacao p{
+    padding: 0 20px;
+  }
   .imagemPerfil {
     width: 18rem;
   }
