@@ -10,6 +10,8 @@
   --cor02: #83b4ff;
   --cor03: #5a72a0;
   --cor04: #1a2130;
+  --cor05: #c2dafd;
+  
 }
 body {
   background-color: var(--cor04);
@@ -91,9 +93,13 @@ main p {
 .imagemPerfil {
   margin-top: 15px;
   width: 18rem;
-  background-color: var(--cor01);
+  background-color:var(--cor05) ;
   border-radius: 15px;
   box-shadow: 0 0 2px 7px  #5a72a012;
+}
+.imagemPerfil:hover {
+  background-color: var(--cor01);
+  transition: 5000ms;
 }
 
 
