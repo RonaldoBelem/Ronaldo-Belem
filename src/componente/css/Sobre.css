@@ -55,12 +55,12 @@ form label{
 }
 form input{
   width: 300px;
-  color: var(--cor01);
+  color: var(--cor04);
   border-radius: 3px;
 }
 form textarea{
   height: 150px;
-  color: var(--cor01);
+  color: var(--cor04);
   border-radius: 3px;
 }
 .btnform{
