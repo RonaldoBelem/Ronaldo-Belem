@@ -45,7 +45,9 @@ header {
 
 .apresentacao__conteudo {
   display: flex;
-  justify-content: center;
+  margin: 0 auto;
+  max-width: 1080px;
+  justify-content: space-evenly;
   align-items: flex-start;
   gap: 2rem;
 }
