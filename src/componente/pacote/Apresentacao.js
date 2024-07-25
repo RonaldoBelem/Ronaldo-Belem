@@ -7,12 +7,7 @@ import "../css/Apresentacao.css";
 import { toBeEmpty } from "@testing-library/jest-dom/dist/matchers";
 
 export default function Apresentacao() {
-  const [Contato, setContato] = useState(false);
-  const informacao_contatos = () => {
-    if (Contato === true) {
-      return <InfoContato />;
-    }
-  };
+  const [visivel, setVisivel] = useState(false);
 
   return (
     <>
@@ -36,7 +31,6 @@ export default function Apresentacao() {
               href="https://api.whatsapp.com/send?phone=5591988633253"
             >
               <i class="bi bi-whatsapp"></i>
-              <span>Whatsapp</span>
             </a>
 
             <a
@@ -44,31 +38,24 @@ export default function Apresentacao() {
               href="https://www.linkedin.com/in/ronaldo-nunes-belem/"
             >
               <i class="bi bi-linkedin"></i>
-              <span>Linkedin</span>
             </a>
 
             <a target="blank" href="https://github.com/RonaldoBelem">
               <i class="bi bi-github"></i>
-              <span>Github</span>
             </a>
             <a
-              onMouseOver={() => {
-                if (Contato === false) {
-                  setContato(true);
-                }
-              }} onMouseOut={()=>{
-                if (Contato === true) {
-                  setContato(false);
-                }
+              onClick={() => {
+                setVisivel(!visivel);
               }}
               href={toBeEmpty}
             >
               <i class="bi bi-telephone"></i>
-              <span>Contato</span>
             </a>
-
-            {informacao_contatos()}
+            {visivel && <InfoContato fechar={() => setVisivel(false)} />}
           </section>
+          <div className="baixar__curriculo">
+            <button type="">Baixar Curriculo</button>
+          </div>
         </div>
         <img className="imagemPerfil" src={Imagem} alt="" />
       </section>

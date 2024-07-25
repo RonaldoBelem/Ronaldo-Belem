@@ -52,38 +52,51 @@ header {
   gap: 2rem;
 }
 .apresentacao__redeSocial {
-  padding: 2rem 0;
+  padding-top : 2rem ;
   display: flex;
-  flex-direction: column;
+  flex-direction: row;
   align-items: center;
   justify-content: center;
-  gap: 0.4rem;
-  margin-bottom: 50px;
+  gap: 1rem;
+  margin-bottom: 20px;
   
 }
 
 .apresentacao__redeSocial a {
+  display: flex;
+  align-items: center;
+  justify-content: center;
   text-align: center;
-  padding: 6px 0;
   text-decoration: none;
   color: var(--cor02);
   border: 1px solid var(--cor02);
-  border-radius: 5px;
-  width: 70%;
+  border-radius: 50%;
+  width: 50px;
+  height: 50px;
+  font-size: 20px;
+}
+.baixar__curriculo{
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  margin-bottom: 50px;
+}
+.baixar__curriculo button{
+  width: 260px;
+  height: 40px;
+  color: var(--cor01);
+  background: var(--cor04);
+  border: 1px solid var(--cor03);
+  border-radius: 10px;
 }
 
-.apresentacao span {
-  padding-left: 10px;
-}
+
 main h1 {
   font-size: 1.5rem;
 }
 main strong {
   color: var(--cor02);
-}
-main p {
-  text-indent: 35px;
-  margin-top: 15px;
 }
 .apresentacao {
   width: 25rem;
@@ -91,7 +104,10 @@ main p {
 }
 .apresentacao p {
   text-align: justify;
+  text-indent: 35px;
+  margin-top: 15px;
 }
+
 .imagemPerfil {
   margin-top: 15px;
   width: 18rem;
@@ -114,6 +130,13 @@ main p {
     width: 25rem;
     color: var(--cor01);
   }
+  .apresentacao__redeSocial{
+    gap: 0.9rem;
+  }
+  .apresentacao__redeSocial a {
+    height: 50px;
+    width: 50px;
+  }
   .imagemPerfil {
     width: 16rem;
   }
@@ -133,8 +156,12 @@ main p {
     width: 30rem;
     color: var(--cor01);
   }
+  .apresentacao__redeSocial{
+    gap: 0.9rem;
+  }
   .apresentacao__redeSocial a {
-    width: 80%;
+    height: 50px;
+    width: 50px;
   }
   .imagemPerfil {
     width: 15rem;
@@ -144,6 +171,13 @@ main p {
   .apresentacao {
     width: 30rem;
     color: var(--cor01);
+  }
+  .apresentacao__redeSocial{
+    gap: 0.7rem;
+  }
+  .apresentacao__redeSocial a {
+    height: 50px;
+    width: 50px;
   }
   .imagemPerfil {
     width: 10rem;
@@ -170,9 +204,12 @@ main p {
     align-items: center;
     justify-content: center;
   }
+  .apresentacao__redeSocial{
+    gap: 0.7rem;
+  }
   .apresentacao__redeSocial a {
-    padding: 10px 0;
-    width: 85%;
+    height: 60px;
+    width: 60px;
   }
   .apresentacao {
     padding: 0 1px;
@@ -182,6 +219,9 @@ main p {
   }
   .apresentacao p{
     padding: 0 20px;
+  }
+  .baixar__curriculo button{
+    width: 280px;
   }
   .imagemPerfil {
     width: 18rem;
