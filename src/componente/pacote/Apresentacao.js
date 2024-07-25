@@ -49,9 +49,7 @@ export default function Apresentacao() {
               }}
               href={toBeEmpty}
             >
-              <i  onMouseOver={() => {
-                setVisivel(!visivel);
-              }} class="bi bi-telephone"></i>
+              <i class="bi bi-telephone"></i>
             </a>
             {visivel && <InfoContato fechar={() => setVisivel(false)} />}
           </section>
