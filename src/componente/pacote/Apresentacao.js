@@ -44,12 +44,14 @@ export default function Apresentacao() {
               <i class="bi bi-github"></i>
             </a>
             <a
-              onClick={() => {
+              onMouseOver={() => {
                 setVisivel(!visivel);
               }}
               href={toBeEmpty}
             >
-              <i class="bi bi-telephone"></i>
+              <i  onMouseOver={() => {
+                setVisivel(!visivel);
+              }} class="bi bi-telephone"></i>
             </a>
             {visivel && <InfoContato fechar={() => setVisivel(false)} />}
           </section>
