@@ -57,7 +57,7 @@ header {
   flex-direction: row;
   align-items: center;
   justify-content: center;
-  gap: 1rem;
+  gap: 1.2rem;
   margin-bottom: 10px;
   
 }
@@ -69,7 +69,8 @@ header {
   text-align: center;
   text-decoration: none;
   color: var(--cor02);
-  border-radius: 50%;
+  border: 1px solid;
+  border-radius: 10px;
   width: 50px;
   height: 50px;
   font-size: 20px;
@@ -86,7 +87,7 @@ header {
   height: 40px;
   color: var(--cor01);
   background: var(--cor04);
-  border: 1px solid var(--cor03);
+  border: 1px solid var(--cor02);
   border-radius: 10px;
 }
 
@@ -98,7 +99,7 @@ main strong {
   color: var(--cor02);
 }
 .apresentacao {
-  width: 25rem;
+  max-width:300px;;
   color: var(--cor01);
 }
 .apresentacao p {

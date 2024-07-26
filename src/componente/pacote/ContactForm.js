@@ -7,7 +7,7 @@ const ContactForm = () => {
       
       action="https://formsubmit.co/ronaldonunes8@gmail.com"
       method="POST"
-    >
+    > <h2>Formulario de Contato</h2>
       <label for="name">Nome</label>
       <input id="name" type="text" name="name" />
       <label for="email">Email</label>

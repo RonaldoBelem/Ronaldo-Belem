@@ -8,16 +8,29 @@ import { toBeEmpty } from "@testing-library/jest-dom/dist/matchers";
 
 export default function Apresentacao() {
   const [visivel, setVisivel] = useState(false);
+  const estiloH1={
+    fontSize:"23px",
+    fontWeight:"600",
+  }
+  const estiloNome={
+    fontSize:"23px",
+    color: "white",
+    fontWeight:"600",
+  }
+
 
   return (
     <>
       <section className="apresentacao__conteudo">
         <div className="apresentacao">
-          <h1>
-            Olá, me chamo Ronaldo.
-            <strong>
-              <TypingEffect />
-            </strong>
+          <h1 >
+             <div style={estiloH1}>
+              Olá, me chamo
+            </div> 
+            <div style={estiloNome}> Ronaldo Nunes Belem</div>
+            <div >
+              <TypingEffect  />
+            </div>
           </h1>
           <p>
             Sou Apaixonado por tecnologia e desenvolvimento de software, possuo
