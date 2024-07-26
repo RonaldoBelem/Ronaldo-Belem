@@ -10,10 +10,10 @@
   --cor02: #83b4ff;
   --cor03: #5a72a0;
   --cor04: #1a2130;
-  --cor05: #c2dafd;
+  --cor05: #caddfa;
   
 }
-body {
+/*body {
   background:linear-gradient(to right,#1a2130,#10141d);
   background-size: 500%  100%;
   animation-name: background;
@@ -21,11 +21,14 @@ body {
   animation-timing-function: ease-in-out;
   animation-direction:alternate ;
   animation-iteration-count: infinite;
+  }
+  @keyframes background {
+    0% { background-position-x: 0% ; }
+    100% { background-position-x: 100% ; }
+    }*/
+body {
+  background-color: var(--cor04);
   margin: 0 3rem;
-}
-@keyframes background {
-  0% { background-position-x: 0% ; }
-  100% { background-position-x: 100% ; }
 }
 header {
   text-align: center;
