@@ -31,18 +31,25 @@ body {
   margin: 0 3rem;
 }
 header {
-  text-align: center;
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
   padding: 4rem 0;
+  max-width: 1080px;
+  margin: 0 auto;
+}
+.logo img{
+  width: 90px;
 }
 
 .cabecalho {
-  padding: 8px 3rem;
+  padding:  0.5rem 2rem;
   font-weight: 600;
   text-decoration: none;
   color: var(--cor02);
   position: relative;
 }
-.cabecalho::after {
+.cabecalho::after  {
   content: " ";
   width: 0;
   height: 2px;
@@ -203,6 +210,8 @@ main strong {
   }
   header {
     padding: 3rem 0;
+    display:  flex;
+    flex-direction:  row;
   }
   .cabecalho {
     font-size: 21px;
