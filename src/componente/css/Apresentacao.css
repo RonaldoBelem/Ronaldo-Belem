@@ -233,6 +233,9 @@ main strong {
     height: 60px;
     width: 60px;
   }
+  .logo img{
+    display: none;
+  }
   .apresentacao {
     padding: 0 1px;
     text-align: center;
