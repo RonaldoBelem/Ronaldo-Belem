@@ -10,7 +10,7 @@ import "./App.css";
 export default function App() {
   return (
     <>
-      <body>
+      
         <header>
           <div>
             <Link to="/" className="logo">
@@ -39,7 +39,7 @@ export default function App() {
         <footer>
           <Rodape />
         </footer>
-      </body>
+      
     </>
   );
 }
