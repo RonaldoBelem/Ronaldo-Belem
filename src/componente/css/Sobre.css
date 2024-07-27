@@ -20,6 +20,7 @@
 
 h1 {
   color: var(--cor02);
+  margin-bottom: 20px;
 }
 .apresentacao__Sobre {
   color: var(--cor01);
