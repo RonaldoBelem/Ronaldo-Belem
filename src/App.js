@@ -13,7 +13,7 @@ export default function App() {
       <body>
         <header>
           <div>
-            <Link className="logo">
+            <Link to="/" className="logo">
               <img src={logo} alt="" />
             </Link>
           </div>
