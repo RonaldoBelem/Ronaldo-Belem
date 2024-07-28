@@ -25,12 +25,10 @@ export default function Apresentacao() {
         <div className="apresentacao">
           <h1 >
              <div style={estiloH1}>
-              Olá, me chamo
+              Olá, me Chamo
             </div> 
             <div style={estiloNome}> Ronaldo Nunes Belem</div>
-            <div >
               <TypingEffect  />
-            </div>
           </h1>
           <p>
             Sou Apaixonado por tecnologia e desenvolvimento de software, possuo
