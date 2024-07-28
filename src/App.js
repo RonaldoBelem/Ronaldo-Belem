@@ -4,7 +4,7 @@ import Projetos from "./componente/Projetos";
 import Rodape from "./componente/pacote/Rodape";
 import Sobre from "./componente/Sobre";
 import { Routes, Route, Link } from "react-router-dom";
-import logo from "./componente/img/_Dev_-removebg-preview.png";
+import logo from "./componente/img/logo-removebg-preview.png";
 import "./App.css";
 
 export default function App() {
