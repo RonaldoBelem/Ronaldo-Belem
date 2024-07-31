@@ -4,6 +4,7 @@ import TypingEffect from "./TypingEffect";
 import CardList from "./CardList";
 import InfoContato from "../../modal/InfoContato";
 import "../css/Apresentacao.css";
+import curriculo from "../../curriculo/curriculo.pdf"
 import { toBeEmpty } from "@testing-library/jest-dom/dist/matchers";
 
 export default function Apresentacao() {
@@ -65,7 +66,7 @@ export default function Apresentacao() {
             {visivel && <InfoContato fechar={() => setVisivel(false)} />}
           </section>
           <div className="baixar__curriculo">
-            <button type="">Baixar Curriculo</button>
+            <a  download href={curriculo} >Baixar Curriculo</a>
           </div>
         </div>
         <img className="imagemPerfil" src={Imagem} alt="" />

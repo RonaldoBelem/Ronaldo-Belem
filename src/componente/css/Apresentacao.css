@@ -100,15 +100,21 @@ header {
   flex-direction: column;
   align-items: center;
   justify-content: center;
+
   margin-bottom: 50px;
 }
-.baixar__curriculo button{
+.baixar__curriculo a{
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
   width: 260px;
   height: 40px;
   color: var(--cor01);
   background: var(--cor04);
   border: 1px solid var(--cor02);
   border-radius: 10px;
+  text-decoration: none;
 }
 
 
