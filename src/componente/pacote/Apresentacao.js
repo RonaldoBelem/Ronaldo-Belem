@@ -19,6 +19,11 @@ export default function Apresentacao() {
     fontWeight:"600",
   }
 
+  const body=document.querySelector('body')
+  body.addEventListener("mousedown",()=>{
+     setVisivel(false)
+  })
+
 
   return (
     <>
@@ -56,9 +61,10 @@ export default function Apresentacao() {
               <i class="bi bi-github"></i>
             </a>
             <a
-              onMouseOver={() => {
+              onClick={() => {
                 setVisivel(!visivel);
               }}
+
               href={toBeEmpty}
             >
               <i class="bi bi-telephone"></i>
