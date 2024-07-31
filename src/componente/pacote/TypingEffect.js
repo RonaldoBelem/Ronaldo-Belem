@@ -3,7 +3,7 @@ import { useTypewriter, Cursor } from 'react-simple-typewriter';
 
 const TypingEffect = () => {
   const [text] = useTypewriter({
-    words: ['Sou Dev Back-End ',' Java, Kotlin, Csharp',' Phyton, JavaScript.','MySql, NoSql'],
+    words: ['Sou Dev Back-End ',' Java, Kotlin ','Phyton, Csharp','JavaScript','MySql, NoSql'],
     loop: 0, // Define 0 para repetir infinitamente
     typeSpeed: 90,
     deleteSpeed: 20,
