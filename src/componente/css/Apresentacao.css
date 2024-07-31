@@ -111,6 +111,7 @@ header {
   width: 260px;
   height: 40px;
   color: var(--cor01);
+  font-weight: 600;
   background: var(--cor04);
   border: 1px solid var(--cor02);
   border-radius: 10px;
