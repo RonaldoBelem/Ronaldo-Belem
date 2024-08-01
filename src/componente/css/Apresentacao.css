@@ -263,6 +263,8 @@ main strong {
     min-width: 300px;
   }
   .baixar__curriculo a{
+    margin:5px 0;
+    padding: 22px;
     min-width: 300px;
   }
   .imagemPerfil {
