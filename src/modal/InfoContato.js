@@ -24,6 +24,7 @@ const estiloInfo = {
 };
 
 const estiloP = {
+  textAlign: 'center',
   margin: "1px auto",
   textIndent: "0",
 };
