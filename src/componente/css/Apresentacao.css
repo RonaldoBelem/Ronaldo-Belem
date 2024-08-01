@@ -224,7 +224,7 @@ main strong {
     margin: 0;
   }
   header {
-    padding: 3rem auto;
+    
     display:  flex;
     flex-direction:  row;
     align-content: center;
@@ -232,7 +232,7 @@ main strong {
   }
   .cabecalho {
     font-size: 21px;
-    padding: 8px 1rem;
+    padding: 8px 1.3rem;
     text-decoration: none;
     color: var(--cor02);
   }
