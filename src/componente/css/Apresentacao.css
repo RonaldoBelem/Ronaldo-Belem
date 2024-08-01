@@ -224,7 +224,7 @@ main strong {
     margin: 0;
   }
   header {
-    padding: 3rem 0;
+    padding: 3rem auto;
     display:  flex;
     flex-direction:  row;
     align-content: center;
@@ -244,7 +244,7 @@ main strong {
     justify-content: center;
   }
   .apresentacao__redeSocial{
-    gap: 0.7rem;
+    gap: 1.1rem;
   }
   .apresentacao__redeSocial a {
     height: 60px;
@@ -260,12 +260,12 @@ main strong {
     color: var(--cor01);
   }
   .apresentacao p{
-    padding: 0 20px;
+    min-width: 300px;
   }
-  .baixar__curriculo button{
-    width: 280px;
+  .baixar__curriculo a{
+    min-width: 300px;
   }
   .imagemPerfil {
-    width: 18rem;
+    min-width: 300px;
   }
 }
